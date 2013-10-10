@@ -1,0 +1,594 @@
+# Logfile created on 2013-09-09 13:25:38 -0400 by logger.rb/36483
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Starting the New Relic agent in "development" environment.
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Reading configuration from config/newrelic.yml
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : New Relic Agent Developer Mode enabled.
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Enabling the Request Sampler.
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Environment: development
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Dispatcher: webrick
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Application: My Application
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] WARN : Agent configured not to send data in this environment.
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Installing ActiveRecord instrumentation
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Installing Net instrumentation
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Installing deferred Rack instrumentation
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Installing Rails 3 Controller instrumentation
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Installing Rails3 Error instrumentation
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Finished instrumentation
+[09/09/13 13:25:38 -0400 new-host-2.home (754)] INFO : Doing deferred dependency-detection before Rack startup
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Starting the New Relic agent in "development" environment.
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Reading configuration from config/newrelic.yml
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : New Relic Agent Developer Mode enabled.
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Enabling the Request Sampler.
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Environment: development
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Dispatcher: webrick
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Application: My Application
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] WARN : Agent configured not to send data in this environment.
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Installing ActiveRecord instrumentation
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Installing Net instrumentation
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Installing deferred Rack instrumentation
+[09/11/13 10:53:16 -0400 new-host-2.home (5475)] INFO : Installing Rails 3 Controller instrumentation
+[09/11/13 10:53:17 -0400 new-host-2.home (5475)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/11/13 10:53:17 -0400 new-host-2.home (5475)] INFO : Installing Rails3 Error instrumentation
+[09/11/13 10:53:17 -0400 new-host-2.home (5475)] INFO : Finished instrumentation
+[09/11/13 10:53:17 -0400 new-host-2.home (5475)] INFO : Doing deferred dependency-detection before Rack startup
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Starting the New Relic agent in "development" environment.
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Reading configuration from config/newrelic.yml
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : New Relic Agent Developer Mode enabled.
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Enabling the Request Sampler.
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Environment: development
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Dispatcher: webrick
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Application: My Application
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] WARN : Agent configured not to send data in this environment.
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Installing ActiveRecord instrumentation
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Installing Net instrumentation
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Installing deferred Rack instrumentation
+[09/11/13 11:45:08 -0400 new-host-2.home (5721)] INFO : Installing Rails 3 Controller instrumentation
+[09/11/13 11:45:09 -0400 new-host-2.home (5721)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/11/13 11:45:09 -0400 new-host-2.home (5721)] INFO : Installing Rails3 Error instrumentation
+[09/11/13 11:45:09 -0400 new-host-2.home (5721)] INFO : Finished instrumentation
+[09/11/13 11:45:09 -0400 new-host-2.home (5721)] INFO : Doing deferred dependency-detection before Rack startup
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Starting the New Relic agent in "development" environment.
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Reading configuration from config/newrelic.yml
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : New Relic Agent Developer Mode enabled.
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Enabling the Request Sampler.
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Environment: development
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Dispatcher: webrick
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Application: My Application
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] WARN : Agent configured not to send data in this environment.
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Installing ActiveRecord instrumentation
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Installing Net instrumentation
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Installing deferred Rack instrumentation
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Installing Rails 3 Controller instrumentation
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Installing Rails3 Error instrumentation
+[09/11/13 18:12:32 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Finished instrumentation
+[09/11/13 18:12:33 -0400 Ryans-MacBook-Pro.local (7257)] INFO : Doing deferred dependency-detection before Rack startup
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Starting the New Relic agent in "development" environment.
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Reading configuration from config/newrelic.yml
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : New Relic Agent Developer Mode enabled.
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Enabling the Request Sampler.
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Environment: development
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Dispatcher: webrick
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Application: My Application
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] WARN : Agent configured not to send data in this environment.
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Installing ActiveRecord instrumentation
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Installing Net instrumentation
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Installing deferred Rack instrumentation
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Installing Rails 3 Controller instrumentation
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Installing Rails3 Error instrumentation
+[09/12/13 10:18:41 -0400 new-host-2.home (8465)] INFO : Finished instrumentation
+[09/12/13 10:18:42 -0400 new-host-2.home (8465)] INFO : Doing deferred dependency-detection before Rack startup
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Starting the New Relic agent in "development" environment.
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Reading configuration from config/newrelic.yml
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : New Relic Agent Developer Mode enabled.
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Enabling the Request Sampler.
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Environment: development
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Dispatcher: webrick
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Application: My Application
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] WARN : Agent configured not to send data in this environment.
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Installing ActiveRecord instrumentation
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Installing Net instrumentation
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Installing deferred Rack instrumentation
+[09/12/13 12:31:19 -0400 new-host-2.home (9428)] INFO : Installing Rails 3 Controller instrumentation
+[09/12/13 12:31:20 -0400 new-host-2.home (9428)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/12/13 12:31:20 -0400 new-host-2.home (9428)] INFO : Installing Rails3 Error instrumentation
+[09/12/13 12:31:20 -0400 new-host-2.home (9428)] INFO : Finished instrumentation
+[09/12/13 12:31:20 -0400 new-host-2.home (9428)] INFO : Doing deferred dependency-detection before Rack startup
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Starting the New Relic agent in "development" environment.
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Reading configuration from config/newrelic.yml
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : New Relic Agent Developer Mode enabled.
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Enabling the Request Sampler.
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Environment: development
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Dispatcher: webrick
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Application: My Application
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] WARN : Agent configured not to send data in this environment.
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Installing ActiveRecord instrumentation
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Installing Net instrumentation
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Installing deferred Rack instrumentation
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Installing Rails 3 Controller instrumentation
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Installing Rails3 Error instrumentation
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Finished instrumentation
+[09/18/13 14:56:57 -0400 new-host-2.home (3237)] INFO : Doing deferred dependency-detection before Rack startup
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : Starting the New Relic agent in "development" environment.
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : Reading configuration from config/newrelic.yml
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : New Relic Agent Developer Mode enabled.
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : Enabling the Request Sampler.
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : Environment: development
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : Dispatcher: webrick
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : Application: My Application
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] WARN : Agent configured not to send data in this environment.
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : Installing ActiveRecord instrumentation
+[09/18/13 14:57:27 -0400 new-host-2.home (3266)] INFO : Installing Net instrumentation
+[09/18/13 14:57:28 -0400 new-host-2.home (3266)] INFO : Installing deferred Rack instrumentation
+[09/18/13 14:57:28 -0400 new-host-2.home (3266)] INFO : Installing Rails 3 Controller instrumentation
+[09/18/13 14:57:28 -0400 new-host-2.home (3266)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/18/13 14:57:28 -0400 new-host-2.home (3266)] INFO : Installing Rails3 Error instrumentation
+[09/18/13 14:57:28 -0400 new-host-2.home (3266)] INFO : Finished instrumentation
+[09/18/13 14:57:28 -0400 new-host-2.home (3266)] INFO : Doing deferred dependency-detection before Rack startup
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Starting the New Relic agent in "development" environment.
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Reading configuration from config/newrelic.yml
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : New Relic Agent Developer Mode enabled.
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Enabling the Request Sampler.
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Environment: development
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Dispatcher: webrick
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Application: My Application
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] WARN : Agent configured not to send data in this environment.
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Installing ActiveRecord instrumentation
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Installing Net instrumentation
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Installing deferred Rack instrumentation
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Installing Rails 3 Controller instrumentation
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Installing Rails3 Error instrumentation
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Finished instrumentation
+[09/19/13 13:20:49 -0400 new-host-3.home (12215)] INFO : Doing deferred dependency-detection before Rack startup
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Starting the New Relic agent in "development" environment.
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Reading configuration from config/newrelic.yml
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : New Relic Agent Developer Mode enabled.
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Enabling the Request Sampler.
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Environment: development
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Dispatcher: webrick
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Application: My Application
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] WARN : Agent configured not to send data in this environment.
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Installing ActiveRecord instrumentation
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Installing Net instrumentation
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Installing deferred Rack instrumentation
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Installing Rails 3 Controller instrumentation
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Installing Rails3 Error instrumentation
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Finished instrumentation
+[09/23/13 14:55:21 -0400 new-host-3.home (25097)] INFO : Doing deferred dependency-detection before Rack startup
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] INFO : Starting the New Relic agent in "development" environment.
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] INFO : Reading configuration from config/newrelic.yml
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] INFO : New Relic Agent Developer Mode enabled.
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] INFO : Enabling the Request Sampler.
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] INFO : Environment: development
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] INFO : Dispatcher: webrick
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] INFO : Application: My Application
+[09/23/13 18:08:42 -0400 new-host-3.home (27655)] WARN : Agent configured not to send data in this environment.
+[09/23/13 18:08:43 -0400 new-host-3.home (27655)] INFO : Installing ActiveRecord instrumentation
+[09/23/13 18:08:43 -0400 new-host-3.home (27655)] INFO : Installing Net instrumentation
+[09/23/13 18:08:43 -0400 new-host-3.home (27655)] INFO : Installing deferred Rack instrumentation
+[09/23/13 18:08:43 -0400 new-host-3.home (27655)] INFO : Installing Rails 3 Controller instrumentation
+[09/23/13 18:08:43 -0400 new-host-3.home (27655)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/23/13 18:08:43 -0400 new-host-3.home (27655)] INFO : Installing Rails3 Error instrumentation
+[09/23/13 18:08:43 -0400 new-host-3.home (27655)] INFO : Finished instrumentation
+[09/23/13 18:08:43 -0400 new-host-3.home (27655)] INFO : Doing deferred dependency-detection before Rack startup
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Starting the New Relic agent in "development" environment.
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Reading configuration from config/newrelic.yml
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : New Relic Agent Developer Mode enabled.
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Enabling the Request Sampler.
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Environment: development
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Dispatcher: webrick
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Application: My Application
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] WARN : Agent configured not to send data in this environment.
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Installing ActiveRecord instrumentation
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Installing Net instrumentation
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Installing deferred Rack instrumentation
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Installing Rails 3 Controller instrumentation
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Installing Rails3 Error instrumentation
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Finished instrumentation
+[09/24/13 11:28:20 -0400 new-host-3.home (32387)] INFO : Doing deferred dependency-detection before Rack startup
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] INFO : Starting the New Relic agent in "development" environment.
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] INFO : Reading configuration from config/newrelic.yml
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] INFO : New Relic Agent Developer Mode enabled.
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] INFO : Enabling the Request Sampler.
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] INFO : Environment: development
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] INFO : Dispatcher: webrick
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] INFO : Application: My Application
+[09/24/13 17:10:51 -0400 new-host-3.home (1950)] WARN : Agent configured not to send data in this environment.
+[09/24/13 17:10:52 -0400 new-host-3.home (1950)] INFO : Installing ActiveRecord instrumentation
+[09/24/13 17:10:52 -0400 new-host-3.home (1950)] INFO : Installing Net instrumentation
+[09/24/13 17:10:52 -0400 new-host-3.home (1950)] INFO : Installing deferred Rack instrumentation
+[09/24/13 17:10:52 -0400 new-host-3.home (1950)] INFO : Installing Rails 3 Controller instrumentation
+[09/24/13 17:10:52 -0400 new-host-3.home (1950)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/24/13 17:10:52 -0400 new-host-3.home (1950)] INFO : Installing Rails3 Error instrumentation
+[09/24/13 17:10:52 -0400 new-host-3.home (1950)] INFO : Finished instrumentation
+[09/24/13 17:10:52 -0400 new-host-3.home (1950)] INFO : Doing deferred dependency-detection before Rack startup
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Starting the New Relic agent in "development" environment.
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Reading configuration from config/newrelic.yml
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : New Relic Agent Developer Mode enabled.
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Enabling the Request Sampler.
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Environment: development
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Dispatcher: webrick
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Application: My Application
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] WARN : Agent configured not to send data in this environment.
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Installing ActiveRecord instrumentation
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Installing Net instrumentation
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Installing deferred Rack instrumentation
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Installing Rails 3 Controller instrumentation
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Installing Rails3 Error instrumentation
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Finished instrumentation
+[09/25/13 16:05:10 -0400 new-host-3.home (5348)] INFO : Doing deferred dependency-detection before Rack startup
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Starting the New Relic agent in "development" environment.
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Reading configuration from config/newrelic.yml
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : New Relic Agent Developer Mode enabled.
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Enabling the Request Sampler.
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Environment: development
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Dispatcher: webrick
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Application: My Application
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] WARN : Agent configured not to send data in this environment.
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Installing ActiveRecord instrumentation
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Installing Net instrumentation
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Installing deferred Rack instrumentation
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Installing Rails 3 Controller instrumentation
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Installing Rails3 Error instrumentation
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Finished instrumentation
+[09/26/13 11:24:35 -0400 new-host-3.home (7145)] INFO : Doing deferred dependency-detection before Rack startup
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Starting the New Relic agent in "development" environment.
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Reading configuration from config/newrelic.yml
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : New Relic Agent Developer Mode enabled.
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Enabling the Request Sampler.
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Environment: development
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Dispatcher: webrick
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Application: My Application
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] WARN : Agent configured not to send data in this environment.
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Installing ActiveRecord instrumentation
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Installing Net instrumentation
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Installing deferred Rack instrumentation
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Installing Rails 3 Controller instrumentation
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Installing Rails3 Error instrumentation
+[09/27/13 11:24:32 -0400 new-host-3.home (11583)] INFO : Finished instrumentation
+[09/27/13 11:24:33 -0400 new-host-3.home (11583)] INFO : Doing deferred dependency-detection before Rack startup
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Starting the New Relic agent in "development" environment.
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Reading configuration from config/newrelic.yml
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : New Relic Agent Developer Mode enabled.
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Enabling the Request Sampler.
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Environment: development
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Dispatcher: webrick
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Application: My Application
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] WARN : Agent configured not to send data in this environment.
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Installing ActiveRecord instrumentation
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Installing Net instrumentation
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Installing deferred Rack instrumentation
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Installing Rails 3 Controller instrumentation
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Installing Rails3 Error instrumentation
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Finished instrumentation
+[09/27/13 14:34:37 -0400 new-host-3.home (13071)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Reading configuration from config/newrelic.yml
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : New Relic Agent Developer Mode enabled.
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Enabling the Request Sampler.
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Environment: development
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Dispatcher: webrick
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Application: My Application
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] WARN : Agent configured not to send data in this environment.
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Installing ActiveRecord instrumentation
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Installing Net instrumentation
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Installing deferred Rack instrumentation
+[09/30/13 10:25:29 -0400 new-host-2.home (2882)] INFO : Installing Rails 3 Controller instrumentation
+[09/30/13 10:25:30 -0400 new-host-2.home (2882)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/30/13 10:25:30 -0400 new-host-2.home (2882)] INFO : Installing Rails3 Error instrumentation
+[09/30/13 10:25:30 -0400 new-host-2.home (2882)] INFO : Finished instrumentation
+[09/30/13 10:25:30 -0400 new-host-2.home (2882)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Reading configuration from config/newrelic.yml
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : New Relic Agent Developer Mode enabled.
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Enabling the Request Sampler.
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Environment: development
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Dispatcher: webrick
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Application: My Application
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] WARN : Agent configured not to send data in this environment.
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Installing ActiveRecord instrumentation
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Installing Net instrumentation
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Installing deferred Rack instrumentation
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Installing Rails 3 Controller instrumentation
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Installing Rails3 Error instrumentation
+[09/30/13 14:58:49 -0400 new-host-2.home (4217)] INFO : Finished instrumentation
+[09/30/13 14:58:50 -0400 new-host-2.home (4217)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Reading configuration from config/newrelic.yml
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : New Relic Agent Developer Mode enabled.
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Enabling the Request Sampler.
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Environment: development
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : No known dispatcher detected.
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Application: My Application
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] WARN : Agent configured not to send data in this environment.
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Installing ActiveRecord instrumentation
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Installing Net instrumentation
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Installing deferred Rack instrumentation
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Installing Rails 3 Controller instrumentation
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Installing Rails3 Error instrumentation
+[09/30/13 15:05:48 -0400 new-host-2.home (4295)] INFO : Finished instrumentation
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Reading configuration from config/newrelic.yml
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : New Relic Agent Developer Mode enabled.
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Enabling the Request Sampler.
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Environment: development
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Dispatcher: webrick
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Application: My Application
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] WARN : Agent configured not to send data in this environment.
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Installing ActiveRecord instrumentation
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Installing Net instrumentation
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Installing deferred Rack instrumentation
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Installing Rails 3 Controller instrumentation
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Installing Rails3 Error instrumentation
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Finished instrumentation
+[09/30/13 15:06:25 -0400 new-host-2.home (4307)] INFO : Doing deferred dependency-detection before Rack startup
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Reading configuration from config/newrelic.yml
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : New Relic Agent Developer Mode enabled.
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Enabling the Request Sampler.
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Environment: development
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : No known dispatcher detected.
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Application: My Application
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] WARN : Agent configured not to send data in this environment.
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Installing ActiveRecord instrumentation
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Installing Net instrumentation
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Installing deferred Rack instrumentation
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Installing Rails 3 Controller instrumentation
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Installing Rails3 Error instrumentation
+[09/30/13 15:07:14 -0400 new-host-2.home (4342)] INFO : Finished instrumentation
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Starting the New Relic agent in "development" environment.
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Reading configuration from config/newrelic.yml
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : New Relic Agent Developer Mode enabled.
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Enabling the Request Sampler.
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Environment: development
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Dispatcher: webrick
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Application: My Application
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] WARN : Agent configured not to send data in this environment.
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Installing ActiveRecord instrumentation
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Installing Net instrumentation
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Installing deferred Rack instrumentation
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Installing Rails 3 Controller instrumentation
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Installing Rails3 Error instrumentation
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Finished instrumentation
+[09/30/13 16:07:04 -0400 new-host-2.home (4718)] INFO : Doing deferred dependency-detection before Rack startup
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Starting the New Relic agent in "development" environment.
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Reading configuration from config/newrelic.yml
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : New Relic Agent Developer Mode enabled.
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Enabling the Request Sampler.
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Environment: development
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Dispatcher: webrick
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Application: My Application
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] WARN : Agent configured not to send data in this environment.
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Installing ActiveRecord instrumentation
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Installing Net instrumentation
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Installing deferred Rack instrumentation
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Installing Rails 3 Controller instrumentation
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Installing Rails3 Error instrumentation
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Finished instrumentation
+[10/01/13 11:23:27 -0400 new-host-2.home (6420)] INFO : Doing deferred dependency-detection before Rack startup
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Starting the New Relic agent in "development" environment.
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Reading configuration from config/newrelic.yml
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : New Relic Agent Developer Mode enabled.
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Enabling the Request Sampler.
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Environment: development
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Dispatcher: webrick
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Application: My Application
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] WARN : Agent configured not to send data in this environment.
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Installing ActiveRecord instrumentation
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Installing Net instrumentation
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Installing deferred Rack instrumentation
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Installing Rails 3 Controller instrumentation
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Installing Rails3 Error instrumentation
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Finished instrumentation
+[10/01/13 13:05:25 -0400 new-host-2.home (6842)] INFO : Doing deferred dependency-detection before Rack startup
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Starting the New Relic agent in "development" environment.
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Reading configuration from config/newrelic.yml
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : New Relic Agent Developer Mode enabled.
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Enabling the Request Sampler.
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Environment: development
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Dispatcher: webrick
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Application: My Application
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] WARN : Agent configured not to send data in this environment.
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Installing ActiveRecord instrumentation
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Installing Net instrumentation
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Installing deferred Rack instrumentation
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Installing Rails 3 Controller instrumentation
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Installing Rails3 Error instrumentation
+[10/02/13 10:48:19 -0400 new-host-2.home (8108)] INFO : Finished instrumentation
+[10/02/13 10:48:20 -0400 new-host-2.home (8108)] INFO : Doing deferred dependency-detection before Rack startup
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Starting the New Relic agent in "development" environment.
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Reading configuration from config/newrelic.yml
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : New Relic Agent Developer Mode enabled.
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Enabling the Request Sampler.
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Environment: development
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Dispatcher: webrick
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Application: My Application
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] WARN : Agent configured not to send data in this environment.
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Installing ActiveRecord instrumentation
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Installing Net instrumentation
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Installing deferred Rack instrumentation
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Installing Rails 3 Controller instrumentation
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Installing Rails3 Error instrumentation
+[10/02/13 13:57:00 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Finished instrumentation
+[10/02/13 13:57:01 -0400 Ryans-MacBook-Pro.local (8544)] INFO : Doing deferred dependency-detection before Rack startup
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Starting the New Relic agent in "development" environment.
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Reading configuration from config/newrelic.yml
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : New Relic Agent Developer Mode enabled.
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Enabling the Request Sampler.
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Environment: development
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Dispatcher: webrick
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Application: My Application
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] WARN : Agent configured not to send data in this environment.
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Installing ActiveRecord instrumentation
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Installing Net instrumentation
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Installing deferred Rack instrumentation
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Installing Rails 3 Controller instrumentation
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Installing Rails3 Error instrumentation
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Finished instrumentation
+[10/03/13 10:24:00 -0400 new-host-2.home (12232)] INFO : Doing deferred dependency-detection before Rack startup
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Starting the New Relic agent in "development" environment.
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Reading configuration from config/newrelic.yml
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : New Relic Agent Developer Mode enabled.
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Enabling the Request Sampler.
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Environment: development
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Dispatcher: webrick
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Application: My Application
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] WARN : Agent configured not to send data in this environment.
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Installing ActiveRecord instrumentation
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Installing Net instrumentation
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Installing deferred Rack instrumentation
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Installing Rails 3 Controller instrumentation
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Installing Rails3 Error instrumentation
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Finished instrumentation
+[10/03/13 10:51:51 -0400 new-host-2.home (12419)] INFO : Doing deferred dependency-detection before Rack startup
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Starting the New Relic agent in "development" environment.
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Reading configuration from config/newrelic.yml
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : New Relic Agent Developer Mode enabled.
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Enabling the Request Sampler.
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Environment: development
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Dispatcher: webrick
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Application: My Application
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] WARN : Agent configured not to send data in this environment.
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Installing ActiveRecord instrumentation
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Installing Net instrumentation
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Installing deferred Rack instrumentation
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Installing Rails 3 Controller instrumentation
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Installing Rails3 Error instrumentation
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Finished instrumentation
+[10/03/13 11:29:44 -0400 new-host-2.home (12579)] INFO : Doing deferred dependency-detection before Rack startup
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Starting the New Relic agent in "development" environment.
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Reading configuration from config/newrelic.yml
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : New Relic Agent Developer Mode enabled.
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Enabling the Request Sampler.
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Environment: development
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Dispatcher: webrick
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Application: My Application
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] WARN : Agent configured not to send data in this environment.
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Installing ActiveRecord instrumentation
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Installing Net instrumentation
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Installing deferred Rack instrumentation
+[10/03/13 11:36:48 -0400 new-host-2.home (12621)] INFO : Installing Rails 3 Controller instrumentation
+[10/03/13 11:36:49 -0400 new-host-2.home (12621)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/03/13 11:36:49 -0400 new-host-2.home (12621)] INFO : Installing Rails3 Error instrumentation
+[10/03/13 11:36:49 -0400 new-host-2.home (12621)] INFO : Finished instrumentation
+[10/03/13 11:36:49 -0400 new-host-2.home (12621)] INFO : Doing deferred dependency-detection before Rack startup
+[10/03/13 11:45:54 -0400 new-host-2.home (12705)] INFO : Starting the New Relic agent in "development" environment.
+[10/03/13 11:45:54 -0400 new-host-2.home (12705)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/03/13 11:45:54 -0400 new-host-2.home (12705)] INFO : Reading configuration from config/newrelic.yml
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : New Relic Agent Developer Mode enabled.
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Enabling the Request Sampler.
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Environment: development
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Dispatcher: webrick
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Application: My Application
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] WARN : Agent configured not to send data in this environment.
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Installing ActiveRecord instrumentation
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Installing Net instrumentation
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Installing deferred Rack instrumentation
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Installing Rails 3 Controller instrumentation
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Installing Rails3 Error instrumentation
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Finished instrumentation
+[10/03/13 11:45:55 -0400 new-host-2.home (12705)] INFO : Doing deferred dependency-detection before Rack startup
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Starting the New Relic agent in "development" environment.
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Reading configuration from config/newrelic.yml
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : New Relic Agent Developer Mode enabled.
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Enabling the Request Sampler.
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Environment: development
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Dispatcher: webrick
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Application: My Application
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] WARN : Agent configured not to send data in this environment.
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Installing ActiveRecord instrumentation
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Installing Net instrumentation
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Installing deferred Rack instrumentation
+[10/03/13 12:59:22 -0400 new-host-2.home (12967)] INFO : Installing Rails 3 Controller instrumentation
+[10/03/13 12:59:23 -0400 new-host-2.home (12967)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/03/13 12:59:23 -0400 new-host-2.home (12967)] INFO : Installing Rails3 Error instrumentation
+[10/03/13 12:59:23 -0400 new-host-2.home (12967)] INFO : Finished instrumentation
+[10/03/13 12:59:23 -0400 new-host-2.home (12967)] INFO : Doing deferred dependency-detection before Rack startup
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Starting the New Relic agent in "development" environment.
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Reading configuration from config/newrelic.yml
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : New Relic Agent Developer Mode enabled.
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Enabling the Request Sampler.
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Environment: development
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Dispatcher: webrick
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Application: My Application
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] WARN : Agent configured not to send data in this environment.
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Installing ActiveRecord instrumentation
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Installing Net instrumentation
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Installing deferred Rack instrumentation
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Installing Rails 3 Controller instrumentation
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Installing Rails3 Error instrumentation
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Finished instrumentation
+[10/03/13 13:03:07 -0400 new-host-2.home (13027)] INFO : Doing deferred dependency-detection before Rack startup
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Starting the New Relic agent in "development" environment.
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Reading configuration from config/newrelic.yml
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : New Relic Agent Developer Mode enabled.
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Enabling the Request Sampler.
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Environment: development
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Dispatcher: webrick
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Application: My Application
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] WARN : Agent configured not to send data in this environment.
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Installing ActiveRecord instrumentation
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Installing Net instrumentation
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Installing deferred Rack instrumentation
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Installing Rails 3 Controller instrumentation
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Installing Rails3 Error instrumentation
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Finished instrumentation
+[10/10/13 14:30:26 -0400 new-host-3.home (10935)] INFO : Doing deferred dependency-detection before Rack startup

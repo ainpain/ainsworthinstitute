@@ -1,0 +1,65 @@
+/ NEEDS TO BE THICKER - ADD 2ND ROW, change social icons
+= render :partial => '/home/get-treated'
+#sixth.story
+  %article
+    .row
+      .large-6.columns.small-12
+        #static-map
+          = link_to image_tag('http://maps.google.com/maps/api/staticmap?center=40.761511, -73.970278&zoom=15&size=200x70&markers=115 East 57th Street, New York, NY 10022, USA&sensor=false'),'https://www.google.com/maps/preview#!data=!1m4!1m3!1d5344!2d-73.9701584!3d40.762293!4m15!3m12!1m0!1m1!1s115+E+57th+St%2C+New+York%2C+NY!3m8!1m3!1d668!2d-73.9710811!3d40.7623123!3m2!1i1280!2i679!4f13.1!7m1!3b1&fid=0', target:'blank'
+        %h6 Ainsworth Institute
+        %p 115 East 57th Street, #1210<br>New York, NY 10022
+        %p.phone (212) 203-2813
+
+      .large-6.columns.hide-for-small.hide-for-medium
+        #ebook-widget
+          = link_to (image_tag 'book.png'),'#', :'data-reveal-id'=>'ebookModal'
+          #ebook-info
+            %p.title= link_to 'Get your FREE Knee Home Exercises eBook!','#', :'data-reveal-id'=>'ebookModal'
+
+    .row
+      .large-12.columns
+        #legal-disclaimer
+          %p Copyright 2013 Ainsworth Institute of Pain Management. All Rights Reserved.
+          %p We are conveniently located at 115 East 57th Street, Suite #1210, and have a state-of-the-art Quad A Certified facility fully equipped with the best technology available to treat your pain. Injections are performed under X-ray guidance and laser targeting, for the ultimate in precision and localization techniques. Most procedures can also be performed under local anesthesia, as needed. We offer pain relief through non-operative injections or procedures such as: spinal injections, joint injections, epidural injection, facet joint injections, and more advanced techniques.
+
+    .row
+      .large-12.columns
+        = link_to 'Sitemap', '/sitemap', :style=>"font-family:'open sans'; font-size: 0.7em"
+
+.hide-for-small
+  #scroll-footer.hidden
+    .row
+      .large-4.columns.hide-for-small#footer-logo
+        %h4 Ainsworth
+        %p.hide-for-medium The best care is here.
+      .show-for-small.small-6.columns
+        %h4 Ainsworth
+      .show-for-small.small-6.columns
+        %h4.phone{:style=>"font-size: 14px; font-weight: 600; overflow: hidden"} (212) 203-2813
+      .large-2.columns.hide-for-small
+        %h4.phone{:style=>"font-weight: 600;"} (212) 203-2813
+      .large-4.columns.hide-for-small
+        %p.book-apt= link_to 'Request Consultation','#', :'data-reveal-id'=>'myModal'
+      .large-2.columns.hide-for-small
+        #social-icons
+          = link_to (image_tag 'facebook-icon.png'), 'https://www.facebook.com/AinsworthInstitute', :target=>'_blank'
+          = image_tag 'youtube-icon.png'
+          = image_tag 'twitter-icon.png'
+
+    #footer-bottom-row
+      .row.show-for-small
+
+      .row.hide-for-small{:style=>"margin-top: 0px;"}
+        .large-3.columns
+          #subway.hide-for-medium
+            = image_tag 'subway_lines.png'
+        .large-4.columns#tab-footer-address
+          %p.address= link_to '115 E 57th Street, #1210 New York, NY 10022', 'https://www.google.com/maps/preview#!data=!1m4!1m3!1d5344!2d-73.9701584!3d40.762293!4m15!3m12!1m0!1m1!1s115+E+57th+St%2C+New+York%2C+NY!3m8!1m3!1d668!2d-73.9710811!3d40.7623123!3m2!1i1280!2i679!4f13.1!7m1!3b1&fid=0', target:'blank'
+
+
+        .large-5.columns#email-signup{:style=>'text-align:right'}
+          = form_tag '/sign-up', :remote=> true, :style=>'margin: 0' do
+            .email-submit
+              = submit_tag 'GET UPDATES'
+            = text_field_tag 'email', nil, :placeholder => 'Your email', :id=>'sign-up-email'
+

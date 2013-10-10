@@ -1,0 +1,58 @@
+/ ------ GOOGLE MAP STYLING & SCRIPT -----------
+:css
+  #map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    border: 2px solid rgb(230,230,230);
+  }
+  #map-canvas img { max-width: none }
+
+%script{:src => "https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"}
+:javascript
+  var map;
+  function initialize() {
+    var myLatlng = new google.maps.LatLng(40.761511, -73.970278)
+    var mapOptions = {
+      zoom: 16,
+
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    map = new google.maps.Map(document.getElementById('map-canvas'),
+        mapOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'NYCPMR'
+    })
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+
+.row
+  .large-4.columns
+    = render :partial => 'about-us-nav'
+
+  .large-8.columns
+    .article-right
+      %h2.article-main-title Hours & Directions
+      .article-main-content
+        .row
+          .large-12.columns
+            %table{:style=>'width:80%'}
+              %tbody
+                %tr
+                  %td Monday
+                  %td <b>8:00am - 6:30pm</b>
+                %tr
+                  %td Tuesday-Friday
+                  %td <b>8:00am - 5:30pm</b>
+                %tr
+                  %td Saturday-Sunday
+                  %td <em>Closed</em>
+
+        %p.article-paragraph-title= link_to 'Directions to the Ainsworth Institute', 'https://www.google.com/maps/preview#!data=!1m4!1m3!1d5344!2d-73.9701584!3d40.762293!4m15!3m12!1m0!1m1!1s115+E+57th+St%2C+New+York%2C+NY!3m8!1m3!1d668!2d-73.9710811!3d40.7623123!3m2!1i1280!2i679!4f13.1!7m1!3b1&fid=0', target:'blank'
+
+      #map-canvas
+

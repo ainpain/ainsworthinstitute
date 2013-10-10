@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: nycpmr_micro_development
+  host: localhost
+  pool: 5
+  username: ryanlee
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: nycpmr_micro_test
+  host: localhost
+  pool: 5
+  username: ryanlee
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: nycpmr_micro_production
+  host: localhost
+  pool: 5
+  username: ryanlee
+  password:

@@ -1,0 +1,33 @@
+.article-left
+  %h6.article-section-title Home
+  .article-nav
+    .article-nav-img
+      = image_tag 'doctors_2.gif'
+    .hide-for-small
+      %h4.article-nav-title About Us
+      %ul.article-nav-list
+        %li= link_to 'Meet Dr. Hunter', '/meet-dr-hunter'
+        %li= link_to 'Meet Dr. Chen', '/meet-dr-chen'
+        %li= link_to 'Meet Dr. Lee', '/meet-dr-lee'
+        %li= link_to 'About the Ainsworth Institute', '/about-ainsworth'
+        %li= link_to 'Meet the Staff', '/meet-the-staff'
+        %li= link_to 'Hours & Directions', '/hours-directions'
+        %li= link_to 'Education', '/education'
+        %li= link_to 'Patient Resources', '/patient-resources'
+    .show-for-small
+      .article-nav-title
+        %h4 About Us
+        %span
+      .small-12.columns.sub-nav-mobile.hidden
+        %ul.article-nav-list
+          %li= link_to 'Meet Dr. Hunter', '/meet-dr-hunter'
+          %li= link_to 'Meet Dr. Chen', '/meet-dr-chen'
+          %li= link_to 'Meet Dr. Lee', '/meet-dr-lee'
+          %li= link_to 'About the Ainsworth Institute', '/about-ainsworth'
+          %li= link_to 'Meet the Staff', '/meet-the-staff'
+          %li= link_to 'Hours & Directions', '/hours-directions'
+          %li= link_to 'Education', '/education'
+          %li= link_to 'Patient Resources', '/patient-resources'
+
+    .article-contact-us.hide-for-small.hide-for-medium
+      = render :partial => 'home/contact-us-form'

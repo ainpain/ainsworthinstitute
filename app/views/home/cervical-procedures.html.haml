@@ -1,0 +1,18 @@
+.row
+  .large-4.columns
+    = render :partial => 'treatment-nav'
+
+  .large-8.columns
+    .article-right
+      %h2.article-main-title Cervical Procedures
+      .article-main-content
+        %p.article-paragraph-title Procedures offered:
+        %ul
+          %li= link_to 'Diagnostic Medial Branch Nerve Injections', '/diagnostic-medial-branch-nerve-injections'
+          %li= link_to 'Discogram', '/discogram'
+          %li= link_to 'Epidural Steroid Injection', '/epidural-steroid-injection'
+          %li= link_to 'Facet Injection', '/facet-injection'
+          %li= link_to 'Nerve Root Blocks', '/nerve-root-blocks'
+          %li= link_to 'Radiofrequency Ablation of Median Branch', '/radiofrequency-ablation-median-branch'
+          %li= link_to 'Stellate Ganglion (Sympathetic) Block', '/stellate-ganglion-block'
+

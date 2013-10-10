@@ -1,0 +1,42 @@
+#before-after-container
+  .row
+    .large-12.columns
+      %h2 Before & After
+  .row
+    .large-12.columns
+      .slideshow-wrapper
+        %ul{"data-orbit" => "" ,'data-options'=>'resume_on_mouseout:true; timer_speed:0'}
+          %li{"data-orbit-slide" => 'slide1'}
+            = image_tag 'sample_beforeafter.png'
+            .orbit-caption
+              %h4 Case: <span>Crazy Knee Surgery</span>
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          %li{"data-orbit-slide" => 'slide2'}
+            = image_tag 'sample_beforeafter.png'
+            .orbit-caption
+              %h4 Case: <span>John Smith</span>
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+          %li{"data-orbit-slide" => 'slide3'}
+            = image_tag 'sample_beforeafter.png'
+            .orbit-caption
+              %h4 Case: <span>Bill Smith</span>
+              %p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+
+  .row
+    .large-12.columns
+      #before-after-gallery
+        %h5 Other cases:
+        %ul
+          %li
+            = link_to 'Crazy Knee Surgery', '#', :'data-orbit-link' => 'slide1'
+          %li
+            = link_to 'John Smith', '#', :'data-orbit-link' => 'slide2'
+          %li
+            = link_to 'Bill Smith', '#', :'data-orbit-link' => 'slide3'
+  .row
+    .large-12.columns#request-consult-mod
+      .large-4.columns
+        %h5 Knee pain videos
+      .large-8.columns
+        %p We offer the latest advances in knee pain treatment. Our procedures utilize sophisticated imaging technology to target your joints and inject with precision and comfort. Watch our Videos to learn more about the Knee treatment procedure.
+

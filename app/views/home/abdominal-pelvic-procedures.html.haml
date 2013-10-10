@@ -1,0 +1,18 @@
+.row
+  .large-4.columns
+    = render :partial => 'treatment-nav'
+
+  .large-8.columns
+    .article-right
+      %h2.article-main-title Abdominal and Pelvic Procedures
+      .article-main-content
+        %p.article-paragraph-title Procedures offered:
+        %ul
+          %li= link_to 'Celiac Plexus Block & Neurolysis', '/celiac-plexus-block-neurolysis'
+          %li= link_to 'Ganglion Impar Block', '/ganglion-impar-block'
+          %li= link_to 'Hypogastric Plexus Block', '/hypogastric-plexus-block'
+          %li= link_to 'Pudendal Nerve Block', '/pudendal-nerve-block'
+          %li= link_to 'Splanchnic Block', '/splanchnic-block'
+
+
+= render :partial => 'get-treated'

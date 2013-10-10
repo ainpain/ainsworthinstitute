@@ -1,0 +1,7 @@
+var thank_you = "<h5 class='ebook-conf'>Your eBook will arrive via email shortly!</h5>";
+$('#ebookModal form').hide();
+$('#ebookModal h5').hide();
+$('#ebookModal h2').after(thank_you);
+$('#email').val('');
+
+$('.ebook-button').css({'background-color':'#103547'}).val('Submit');

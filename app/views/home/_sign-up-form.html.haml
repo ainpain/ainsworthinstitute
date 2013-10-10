@@ -1,0 +1,21 @@
+= form_tag '/contact', :remote=>true,:class=>'contact-form', :style=>'margin: 0' do
+  %h5.hidden Thank you for contacting us.<br>We will be in touch with you shortly!
+  .row
+    .large-12.columns
+      %h4 Schedule a <span>COMPLIMENTARY</span> Consultation!
+
+  .row
+    .large-12.columns
+      = text_field_tag 'name', nil, :placeholder=>'Name'
+  .row
+    .large-12.columns
+      = text_field_tag 'email', nil, :placeholder=>'Email'
+  .row
+    .large-12.columns
+      = text_field_tag 'phone', nil, :placeholder=>'Phone'
+  .row
+    .large-12.columns
+      = text_area_tag 'pain', nil, :placeholder=>'What kind of pain are you experiencing?'
+  .row
+    .large-12.columns
+      = submit_tag 'Submit', :class=>'form-button   expand'

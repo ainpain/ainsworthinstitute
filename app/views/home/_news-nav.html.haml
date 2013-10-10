@@ -1,0 +1,20 @@
+.article-left
+  %h6.article-section-title News
+  .article-nav
+    .article-nav-img
+      = image_tag 'doctors_2.gif'
+    .hide-for-small
+      %h4.article-nav-title News
+      %ul.article-nav-list
+        %li= link_to 'Press Releases', '#'
+        %li= link_to 'Articles', '#'
+    .show-for-small
+      .article-nav-title
+        %h4 News
+        %span
+      .small-12.columns.sub-nav-mobile.hidden
+        %ul.article-nav-list
+          %li= link_to 'Press Releases', '#'
+          %li= link_to 'Articles', '#'
+    .article-contact-us.hide-for-small.hide-for-medium
+      = render :partial => 'home/contact-us-form'

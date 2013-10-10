@@ -1,0 +1,60 @@
+/ ------ GOOGLE MAP STYLING & SCRIPT -----------
+:css
+  #map-canvas {
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    border: 2px solid rgb(230,230,230);
+  }
+  #map-canvas img { max-width: none }
+
+%script{:src => "https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"}
+:javascript
+  var map;
+  function initialize() {
+    var myLatlng = new google.maps.LatLng(40.761511, -73.970278)
+    var mapOptions = {
+      zoom: 16,
+
+      center: myLatlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    map = new google.maps.Map(document.getElementById('map-canvas'),
+        mapOptions);
+    var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'NYCPMR'
+    })
+  }
+
+  google.maps.event.addDomListener(window, 'load', initialize);
+#contact-us
+  .row
+    .large-12.columns
+      %h2 Contact Us
+  .row
+    .large-8.columns
+      #map-canvas
+    .large-4.columns#contact-us-info-right
+      .contact-right-section
+        %h5 CONTACT INFO
+        %p Ainsworth Institute<br>115 East 57th Street, #1210<br> New York, NY 10022<br>(212) 203-2813
+        = mail_to "info@ainsworth.com"
+      .contact-right-section
+        %h5 FREE SCREENING
+        %p Call us today to receive a risk free, no obligation, free insurance benefits verification. You'll have minimal wait time after your appointment is scheduled. Your health is important and so is your time.
+        = link_to 'Request a FREE Consultation','#', :'data-reveal-id'=>'myModal'
+      .contact-right-section
+        %h5 HOURS
+        %table{:style=>'width: 100%'}
+          %tbody
+            %tr
+              %td Monday
+              %td <b>8:00am - 6:30pm</b>
+            %tr
+              %td Tuesday-Friday
+              %td <b>8:00am - 5:30pm</b>
+            %tr
+              %td Saturday-Sunday
+              %td <em>Closed</em>

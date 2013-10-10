@@ -1,0 +1,71 @@
+#header
+  #nav-address-bar
+    .row.show-for-small
+      .small-12.columns
+        .phone
+          %p= link_to 'Call for FREE Consultation!', 'tel:2129205457'
+          = link_to '212-203-2813', 'tel:2122032813'
+    .row.hide-for-small
+      %ul
+        %li.large-4.columns{:style=>'padding:0;'}
+          #nav-address
+            %p= link_to "<span itemprop='streetAddress'>115 East 57th Street, #1210</span><span itemprop='addressLocality'> New York</span>, <span itemprop='addressRegion'> NY</span><span itemprop='postalCode'> 10022</span>".html_safe, 'https://www.google.com/maps/preview#!data=!1m4!1m3!1d5344!2d-73.9701584!3d40.762293!4m15!3m12!1m0!1m1!1s115+E+57th+St%2C+New+York%2C+NY!3m8!1m3!1d668!2d-73.9710811!3d40.7623123!3m2!1i1280!2i679!4f13.1!7m1!3b1&fid=0', target:'blank', itemprop:"address", itemscope:'', itemtype:"http://schema.org/PostalAddress"
+
+        %li.large-4.columns{:style=>'padding:0'}
+          #nav-book-today
+            = link_to "Same day appointments available. <span>CALL NOW!</span>".html_safe,'#', :'data-reveal-id'=>'myModal'
+        %li.large-2.columns{:style=>'padding:0'}
+          #nav-phone
+            %p= link_to "<span itemprop='telephone'>(212) 203-2813</span>".html_safe, 'tel:2122032813'
+        %li.large-2.columns{:style=>'padding:0'}
+          #nav-social
+            %p.hide-for-medium Like us on:
+            = link_to (image_tag 'facebook-icon.png'), 'https://www.facebook.com/AinsworthInstitute', :target=>'_blank'
+            = image_tag 'youtube-icon.png'
+            = image_tag 'twitter-icon.png'
+  .row.hide-for-small
+    #nav-logo
+      = link_to (image_tag 'banner.jpg', :itemprop=>'image'), root_path
+    / #associate-logo
+    /   %p in association with
+    /   = image_tag 'banner.jpg'
+    #nav-main-items.hide-for-small
+      %ul
+        %li
+          = link_to 'About Us', '/about-us'
+        %li
+          = link_to 'Types of Pain', '/types-of-pain'
+        %li
+          = link_to 'Treatment', '/treatment'
+        %li
+          = link_to 'News', '/news'
+        %li
+          = link_to 'Contact', '/contact'
+  .row.show-for-small
+    #mobile-nav
+      #small-logo.small-6.columns{:style=>'padding:5px'}
+        = link_to (image_tag 'banner.jpg'), root_path
+      #mobile-nav-menu.large-1.small-2.columns
+
+
+.hide-for-small
+  .request-consultation-green.hidden
+    %h6= link_to 'Request', '#', :'data-reveal-id'=>'myModal'
+    %p= link_to 'Consultation', '#', :'data-reveal-id'=>'myModal'
+
+.show-for-small
+  #mobile-index-nav.hidden
+    / %h3{:style=>"text-align:center; font-family:'open sans' "} Welcome to the Ainsworth Institute.
+    %ul
+      %li
+        = link_to 'About Us <span>></span>'.html_safe, '/about-us'
+      %li
+        = link_to 'Types of Pain <span>></span>'.html_safe, '/types-of-pain'
+      %li
+        = link_to 'Treatment <span>></span>'.html_safe, '/treatment'
+      %li
+        = link_to 'News <span>></span>'.html_safe, '/news'
+      %li
+        = link_to 'Contact <span>></span>'.html_safe, '/contact'
+
+.clear

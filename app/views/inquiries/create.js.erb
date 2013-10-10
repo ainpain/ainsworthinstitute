@@ -1,0 +1,13 @@
+$('#name').val('');
+$('#email').val('');
+$('#phone').val('');
+$('#pain').val('');
+$('.article-contact-us form h5').append("<p style='font-size: 12px; color: black'>Thank you for contacting us!<br>We will be in touch with you shortly!</p>");
+$('.article-contact-us form p').delay(800).fadeOut(400);
+$('#myModal form input[type=text]').val('');
+$('#myModal form textarea').val('');
+var thank_you = "<h5>Thank you for contacting us.<br>We will be in touch with you shortly!</h5>";
+$('#myModal form').hide().append(thank_you);
+$('#myModal h2').after(thank_you);
+$('#myModal form h5').delay(2000).fadeOut();
+$('.contact-form .form-button').css({'background-color':'#103547'}).val('Submit');
