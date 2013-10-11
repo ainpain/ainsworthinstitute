@@ -160,4 +160,7 @@ NycpmrMicro::Application.routes.draw do
   get '/pain-management-wayne-nj'               => 'home#pain-management-wayne-nj'
   get '/pain-physicians-ny'                     => 'home#pain-physicians-ny'
 
+  # TRAINING
+  get '/mgmt' => 'home#mgmt'
+
 end
