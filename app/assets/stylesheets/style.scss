@@ -1315,14 +1315,14 @@ footer {
 }
 
 // SITEMAP
-#sitemap {
+#sitemap, #mgmt {
   padding: 40px 0;
   h1 {
     font-weight: 100;
     font-family: 'Open Sans';
     color: #98B94A;
   }
-  h5 {
+  h5, h3 {
     font-family: 'open sans';
     color: #369ABF;
     font-weight: 100;
@@ -1332,6 +1332,19 @@ footer {
     font-size: 0.8em;
     color: #123E54
   }
+  li a:hover {
+    font-weight: 600;
+  }
+  p {
+    font-family: 'open sans';
+    margin-bottom: 0;
+  }
+}
+
+#mgmt ul {
+  margin-left: 10px;
+  list-style: circle;
+  list-style-position: inside;
 }
 
 
