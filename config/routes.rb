@@ -150,7 +150,7 @@ NycpmrMicro::Application.routes.draw do
   get '/nj-new-jersey-pain-management-doctors'  => 'home#nj-new-jersey-pain-management-doctors'
   get '/nyc-new-york-pain-clinic'               => 'home#nyc-new-york-pain-clinic'
   get '/pain-management-brooklyn-ny'            => 'home#pain-management-brooklyn-ny'
-  get '/pain-management-clifton-ny'             => 'home#pain-management-clifton-ny'
+  get '/pain-management-clifton-nj'             => 'home#pain-management-clifton-nj'
   get '/pain-management-doctors-new-jersey-nj'  => 'home#pain-management-doctors-new-jersey-nj'
   get '/pain-management-doctors-new-york-nyc'   => 'home#pain-management-doctors-new-york-nyc'
   get '/pain-management-dr-in-nj'               => 'home#pain-management-dr-in-nj'
